@@ -25,7 +25,8 @@ This Jupyter Notebook contains the code to reproduce the results presented to th
 <details>
 <summary>TODO list</summary>
 
-[   ] System dependencies \\
+[   ] System dependencies
+
 [   ] Readme file
 
 </details>
