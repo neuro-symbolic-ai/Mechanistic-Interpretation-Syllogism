@@ -79,7 +79,7 @@ def gen_numeric_prompt(N, seed=42, template_type = 'CAT'):
 
 def gen_consistent_prompt(N, tokenizer, seed = 42,  template_type = 'CAT', sequence_length = 15):
     prompts = []
-    with open('./Dataset/belief-consistent.csv', mode='r') as file:
+    with open('./dataset/belief-consistent.csv', mode='r') as file:
         cnt = 0
         csvFile = csv.reader(file)
         next(csvFile)
@@ -100,7 +100,7 @@ def gen_consistent_prompt(N, tokenizer, seed = 42,  template_type = 'CAT', seque
 
 def gen_inconsistent_prompt(N, tokenizer, seed = 42,  template_type = 'CAT', sequence_length = 15):
     prompts = []
-    with open('./Dataset/belief-inconsistent.csv', mode='r') as file:
+    with open('./dataset/belief-inconsistent.csv', mode='r') as file:
         cnt = 0
         csvFile = csv.reader(file)
         next(csvFile)
