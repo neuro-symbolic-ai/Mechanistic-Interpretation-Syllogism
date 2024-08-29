@@ -2,7 +2,7 @@
 
 ![](imgs/pipeline.png)
 
-This Jupyter Notebook contains the code to reproduce the results presented to the paperaccompanying code to the paper ["A Mechanistic Interpretation of Syllogistic Reasoning in Auto-Regressive Language Models"](https://arxiv.org/abs/2408.08590).
+This Jupyter Notebook contains the code to reproduce the results presented to the paper ["A Mechanistic Interpretation of Syllogistic Reasoning in Auto-Regressive Language Models"](https://arxiv.org/abs/2408.08590).
 
 ### System Dependencies
 + python >= 3.9.18
