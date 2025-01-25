@@ -12,29 +12,10 @@ bash ./scripts/install_dependencies.sh
 
 ```
 
-### System Dependencies
-+ python >= 3.9.18
-+ pytorch >= 2.2.0
-+ plotly >= 5.19.0
-
-
 ### How to Use?
-- Needed Installation
-```
-!pip install transformer_lens
-!pip install circuitsvis
-```
-- Locate the `dataset` folder and `dataset_generator.py`, `helper_functions.py` files are in the same directory as the `main.ipynb` notebook file. 
-- Run the cells in order to replicate our experiments in the `main.ipynb`.
+- Run the cells in order to replicate our experiments in the `main.ipynb` in the scripts folder.
 
 
 ## TODO
-
 <details>
-<summary>TODO list</summary>
-
-[   ] System dependencies
-
-[   ] Readme file
-
 </details>
