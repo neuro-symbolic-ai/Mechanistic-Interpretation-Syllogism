@@ -1,6 +1,6 @@
 # Mechanistic Interpretation Syllogism
 
-![](imgs/pipeline.png)
+![](images/pipeline.png)
 
 This Jupyter Notebook contains the code to reproduce the results presented to the paper ["A Mechanistic Interpretation of Syllogistic Reasoning in Auto-Regressive Language Models"](https://arxiv.org/abs/2408.08590).
 
