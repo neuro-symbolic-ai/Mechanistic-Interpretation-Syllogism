@@ -4,6 +4,14 @@
 
 This Jupyter Notebook contains the code to reproduce the results presented to the paper ["A Mechanistic Interpretation of Syllogistic Reasoning in Auto-Regressive Language Models"](https://arxiv.org/abs/2408.08590).
 
+### Project Setup
+```
+conda create -n mechsyllogism python=3.9 -y
+conda activate mechsyllogism
+bash ./scripts/install_dependencies.sh
+
+```
+
 ### System Dependencies
 + python >= 3.9.18
 + pytorch >= 2.2.0
