@@ -23,11 +23,15 @@ def resize_all(tensor):
     temp = resize_tensor(temp, 4, 5)
     return temp
 
-def compute_logit_diff(logits, answer_tokens):
+def compute_logit_diff(logits, answer_tokens, array=False):
     last = logits[:, -1, :]
     answer_logits = last.gather(dim=-1, index=answer_tokens)
     correct_logits, incorrect_logits = answer_logits.unbind(dim=-1)
     answer_logit_diff = correct_logits - incorrect_logits
+
+    if array:
+        return answer_logit_diff.cpu().numpy()
+        
     return answer_logit_diff.mean()
 
 def get_batched_logit_diff(minibatch_size, tokens, answer_tokens, model):
@@ -218,7 +222,7 @@ def get_accumulated_ablation_score(model, labels, tokens, answer_tokens, head_li
     return compute_logit_diff(patched_logits, answer_tokens)
 
 def necessity_check(model, labels, tokens, answer_tokens, clean_logit_diff, type, device):
-    sequence = [(23,10),(19,1), (18, 12),  (17,2), (15, 14), (14,14), (11, 10), (7,2), (6, 15), (6,1), (5,8)]
+    sequence = [(23,10), (19,1), (18, 12), (17,2), (15, 14), (14,14), (11, 10), (7,2), (6, 15), (6,1), (5,8)]
     target_head = []
     scores = []
 

@@ -9,7 +9,6 @@ This Jupyter Notebook contains the code to reproduce the results presented to th
 conda create -n mechsyllogism python=3.9 -y
 conda activate mechsyllogism
 bash ./scripts/install_dependencies.sh
-
 ```
 
 ### How to Use?
