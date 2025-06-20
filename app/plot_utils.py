@@ -123,7 +123,7 @@ def plot_residual(data, label_token, save_path):
             color="black"
         ),
         coloraxis_colorbar=dict(
-            title=None,  
+            title="𝑆", 
             thicknessmode="pixels",  
             thickness=10, 
             lenmode="fraction",

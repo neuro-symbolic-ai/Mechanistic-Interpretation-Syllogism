@@ -25,6 +25,9 @@ To install the required dependencies and set up the environment, please run:
 conda create -n mechsyllogism python=3.9 -y
 conda activate mechsyllogism
 bash ./scripts/install_dependencies.sh
+
+cd ./scripts
+jupyter notebook main.ipynb
 ```
 
 ## Citation
