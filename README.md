@@ -1,7 +1,7 @@
 # Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference
 
 **Authors:**  
-Geonhee Kim, Marco Valentino, Andre Freitas
+Geonhee Kim, Marco Valentino, André Freitas
 
 ---
 
@@ -12,7 +12,7 @@ Geonhee Kim, Marco Valentino, Andre Freitas
 This repository contains the official codebase for the paper:
 
 > **Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference**  
-> Geonhee Kim, Marco Valentino, Andre Freitas  
+> Geonhee Kim, Marco Valentino, André Freitas  
 > [arXiv:2408.08590](https://arxiv.org/abs/2408.08590)
 
 The project provides a mechanistic analysis of how large language models perform syllogistic inference, offering insights into the internal reasoning circuits that underpin logical reasoning capabilities in auto-regressive models.
@@ -32,8 +32,8 @@ bash ./scripts/install_dependencies.sh
 If you use this codebase or find our work helpful, please cite:
 
 > **Reasoning Circuits in Language Models: A Mechanistic Interpretation of Syllogistic Inference**  
-> Geonhee Kim, Marco Valentino, Andre Freitas  
-> *Findings of ACL 2024 (to appear)*  
+> Geonhee Kim, Marco Valentino, André Freitas  
+> *Findings of ACL 2025 (to appear)*  
 > [arXiv:2408.08590](https://arxiv.org/abs/2408.08590)
 
 

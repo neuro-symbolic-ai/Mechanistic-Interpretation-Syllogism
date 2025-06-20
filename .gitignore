@@ -1,5 +1,10 @@
+# macOS Finder metadata
+.DS_Store
+*/.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
+/app/__pycache__/
+/scripts/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -14,6 +19,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+scripts_private/
 lib/
 lib64/
 parts/
@@ -74,6 +80,9 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+
+# Python bytecode cache
+__pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
