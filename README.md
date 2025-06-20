@@ -24,11 +24,13 @@ To install the required dependencies and set up the environment, please run:
 ```bash
 conda create -n mechsyllogism python=3.9 -y
 conda activate mechsyllogism
-bash ./scripts/install_dependencies.sh
 
-cd ./scripts
-jupyter notebook main.ipynb
+git clone https://github.com/neuro-symbolic-ai/Mechanistic-Interpretation-Syllogism.git
+cd Mechanistic-Interpretation-Syllogism/scripts
+bash ./install_dependencies.sh
 ```
+
+After the installation is complete, you can run the demo file `main.ipynb`.
 
 ## Citation
 
