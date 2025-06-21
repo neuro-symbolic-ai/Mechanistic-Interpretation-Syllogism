@@ -5,7 +5,7 @@ Geonhee Kim, Marco Valentino, André Freitas
 
 ---
 
-![Pipeline Overview](images/pipeline.png)
+![Pipeline Overview](images/introduction.png)
 
 ## Overview
 
